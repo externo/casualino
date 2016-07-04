@@ -1,0 +1,6 @@
+{
+  "errors": [{
+      "field": "email",
+      "message": "This field is required!"
+  }]
+}

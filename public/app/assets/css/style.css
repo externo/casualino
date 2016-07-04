@@ -1,0 +1,84 @@
+/***************** RESET ********************/
+@import url("_reset.css");
+@import url("_login.css");
+@import url("_pass-reset.css");
+@import url("_close-outsite.css");
+@import url("_small-device.css");
+
+/***************** FONTS ********************/
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/OpenSans.ttf');
+}
+
+body {
+  background-color: rgb(77, 100, 112);
+}
+
+#lang{
+  margin: 2%;
+  color: #62ADDE;
+  cursor: pointer;
+}
+
+#login-form {
+  margin: 50px auto;
+  background-color: #123851;
+  width: 470px;
+  height: 580px;
+  position: relative;
+}
+
+.header {
+  height: 64px;
+  position: relative;
+  display: block;
+}
+
+.header span {
+  margin-top: -3%;
+  font-size: larger;
+  position: relative;
+  top: 23%;
+  left: 30%;
+}
+
+.header img {
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  margin-top: -3%;
+  cursor: pointer;
+}
+
+.user_icons {
+  height: 70px;
+  background-color: #62ADDE;
+  color: #ffffff;
+  width: 100%;
+}
+
+.user_icons a {
+  float: left;
+  width: 50%;
+  text-decoration: none;
+}
+
+.user_icons .img {
+  position: relative;
+  top: -17px;
+  z-index: 3;
+  left: 30px;
+}
+
+.background_img {
+  z-index: 2;
+  position: relative;
+  left: -24px;
+  opacity: 0.3;
+}
+
+a:focus .background_img {
+  opacity: 1;
+}
+

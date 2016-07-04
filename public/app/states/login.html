@@ -1,0 +1,21 @@
+<form name="formLogin">
+  <div>
+    <img class="img front_img" src="assets/img/email.svg" alt="arrow">
+    <span>*</span>
+    <input type="text" placeholder="{{ 'EMAIL' | translate }}" ng-model="Login.user.email" name="email" required/>
+    <p class="arrow_label" ng-show="formLogin.email.$error.required">{{ 'REQUIRED-FIELD' | translate }}</p>
+  </div>
+
+  <div>
+    <img class="img front_img" src="assets/img/password.svg" alt="arrow">
+    <span>*</span>
+    <input type="password" placeholder="{{ 'PASSWORD' | translate }}" ng-model="Login.user.password" name="password" required/>
+    <p class="arrow_label" ng-show="formLogin.pass.$error.required">{{ 'REQUIRED-FIELD' | translate }}</p>
+  </div>
+</form>
+<div class="submit_button">
+  <span us-spinner></span>
+  <button ng-click="Login.login()"
+          ng-disabled="formLogin.email.$error.required || formLogin.password.$error.required">
+    {{ 'LOGIN-BUTTON' | translate }}</button>
+</div>

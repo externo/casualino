@@ -1,0 +1,23 @@
+{
+  "name": "frontend-task-casualino-ilia",
+  "version": "1.0.0",
+  "description": "Front End Task for Casualino",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-animate": "^1.5.7",
+    "angular-loading-spinner": "0.0.3",
+    "angular-mocks": "^1.5.7",
+    "angular-resource": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "angular-spinner": "^0.8.1",
+    "angular-translate": "^2.11.0",
+    "angular-ui-notification": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iliya Iliev",
+  "license": "ISC"
+}
