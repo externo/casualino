@@ -9,14 +9,14 @@
   <div>
     <img class="img front_img" src="assets/img/password.svg" alt="arrow">
     <span>*</span>
-    <input type="text" placeholder="{{ 'OLD-PASSWORD' | translate }}" ng-model="Login.user.pass" name="pass" required/>
+    <input type="password" placeholder="{{ 'OLD-PASSWORD' | translate }}" ng-model="Login.user.pass" name="pass" required/>
     <p class="arrow_label" ng-show="formPassReset.pass.$error.required">{{ 'REQUIRED-FIELD' | translate }}</p>
   </div>
 
   <div>
     <img class="img front_img" src="assets/img/password.svg" alt="arrow">
     <span>*</span>
-    <input type="text" placeholder="{{ 'NEW-PASSWORD' | translate }}" ng-model="Login.user.newPass" name="newPass" required/>
+    <input type="password" placeholder="{{ 'NEW-PASSWORD' | translate }}" ng-model="Login.user.newPass" name="newPass" required/>
 
     <p class="arrow_label" ng-show="formPassReset.newPass.$error.required">{{ 'REQUIRED-FIELD' | translate }}</p>
   </div>
@@ -24,7 +24,7 @@
   <div>
     <img class="img front_img" src="assets/img/password.svg" alt="arrow">
     <span>*</span>
-    <input type="text" placeholder="{{ 'REPEAT-PASSWORD' | translate }}" ng-model="Login.user.repeatPass" name="repeatPass" required/>
+    <input type="password" placeholder="{{ 'REPEAT-PASSWORD' | translate }}" ng-model="Login.user.repeatPass" name="repeatPass" required/>
     <p class="arrow_label" ng-show="formPassReset.newPass.$error.required">{{ 'REQUIRED-FIELD' | translate }}</p>
     <p class="arrow_label" ng-show="Login.user.repeatPass!=Login.user.newPass">{{ 'REPEAT-PASSWORD-MSG' | translate }}</p>
   </div>
